@@ -1,6 +1,64 @@
-body{background-color: aquamarine;}
-.nav{background-color: brown;}
-.subnav{background-color:white;}
-#f1{font-weight: bolder;}
-#f2{font-weight: bolder;}
-#f3{font-weight: bolder;}
+
+
+body{
+    background-color: aquamarine;
+}
+
+.nav{
+    background-color: brown;
+}
+
+.subnav{;
+    background-color:white;
+}
+
+#f1{color: black;
+    
+    font-weight: bolder;
+}
+
+.f2f3{color: gray;
+    font-weight: bolder;
+}
+
+.signin{
+background-color:black;
+border-radius: 3px;
+color: white;
+border-width: 0px;
+font-weight: bold;
+}
+.signin:hover{
+    background-color: rgb(52, 52, 52);
+    border-width: 0px;
+    font-weight: bold;
+}
+
+.subscribe{
+    background-color: red;
+    color:white;
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+    border-left: 2px red solid;
+    border-right: 2px red solid; 
+    border-radius: 3px;
+    font-weight: bold;
+    }
+.subscribe:hover{color:rgb(52, 52, 52);
+    background-color: white;
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+    border-left: 2px red solid;
+    border-right: 2px red solid;
+     font-weight: bold;
+     }
+
+a { color: black;
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    }
+
+.linkshover:hover{color: red;border-bottom: red 2px solid;}
+
+.f2f3:hover{color:black;}
