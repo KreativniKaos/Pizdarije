@@ -1,29 +1,18 @@
 
+html{font-size: 14px;
+   }
 
-body{
-    background-color: aquamarine;
-
+body{margin: 0 0 0 0;
+    background-color: green;
 }
-#subnav{padding: 20px 20px 20px;20px
-    float: left;
+
+#navheader{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 20px 20px 20px;
     background-color:white;
-    padding: auto;
- width: :fullscreen;
- height:40px;
- 
-}
-.content{width: 1389px;}
-.nav{
-    background-color: #e10600;
-    
-}
-
-#fia{
-
-}
+   }
 
 #f1{color: black;
-    
     font-weight: bolder;
 }
 
@@ -39,11 +28,10 @@ border-width: 0px;
 font-weight: bold;
 }
 .signin:hover{
-    background-color: rgb(52, 52, 52);
+    background-color: rgb(155, 154, 154);
     border-width: 0px;
     font-weight: bold;
 }
-
 .subscribe{
     background-color: red;
     color:white;
@@ -63,7 +51,7 @@ font-weight: bold;
      font-weight: bold;
      }
 
-a { color: black;
+a{ color: black;
     outline: none;
     text-decoration: none;
     
@@ -72,3 +60,26 @@ a { color: black;
 .linkshover:hover{color: red;border-bottom: red 2px solid;}
 
 .f2f3:hover{color:black;}
+
+#navfooter{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 0px 0px 20px;
+    height: 50px;
+    background-color: #e10600;}
+
+#navfooter a{color: white;}
+.podkategorije{text-decoration: dashed underline;}
+.kategorije{text-decoration: line-through;}
+.podkategorije2{text-decoration: solid overline;}
+.vijesti{text-decoration: underline;}
+
+
+
+
+ul{list-style: none;}
+
+
+
+
+  
