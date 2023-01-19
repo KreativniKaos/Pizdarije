@@ -5,11 +5,13 @@ html{font-size: 14px;
 body{margin: 0 0 0 0;
     background-color: green;
 }
+nav{background-color: #e10600;;}
 
 #navheader{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px 20px 20px 20px;
     background-color:white;
+   ;
    }
 
 #f1{color: black;
@@ -61,25 +63,16 @@ a{ color: black;
 
 .f2f3:hover{color:black;}
 
-#navfooter{
+#navfooter{margin-top:20px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 20px 0px 0px 20px;
     height: 50px;
     background-color: #e10600;}
 
-#navfooter a{color: white;}
-.podkategorije{text-decoration: dashed underline;}
-.kategorije{text-decoration: line-through;}
-.podkategorije2{text-decoration: solid overline;}
-.vijesti{text-decoration: underline;}
+#navfooter a{color: white;
+}
+.kategorije{float: left;
+margin-left: 20px;
+}
 
-
-
-
-ul{list-style: none;}
-
-
-
-
-  
+.kategorije:hover{background-color: black;}
