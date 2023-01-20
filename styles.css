@@ -1,40 +1,62 @@
 
-html{font-size: 14px;
+html{font-size: 16px;
    }
 
-body{margin: 0 0 0 0;
-    background-color: green;
+body{
+    max-width: 1200px;
+    margin: 0 0 0 0;
+    background-color: white;
 }
-nav{background-color: #e10600;;}
+nav{max-width: 1200px;
+    background-color: #e10600;;}
 
-#navheader{
+#navheader{font-size: 12px;
+    min-width: 1200px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 20px 20px 20px 20px;
     background-color:white;
    ;
    }
+#fia{    
+    
+    margin-top: 15px;
+    padding-top:6px ;
+    padding-bottom: 6px;
+    
 
+}
+
+img.fialogo{border-right: 1px solid gray;
+    padding-right: 15px;
+  position: fixed;
+margin-top: 10px;}
+
+.lineheight{line-height: 40px;
+    padding: 0px 20px 0px 20px;
+    display: block;
+    width: 100%;
+}
 #f1{color: black;
     font-weight: bolder;
+    margin:0px 5px 0px 70px
 }
 
-.f2f3{color: gray;
+.f2f3{margin:0px 5px 0px 10px;
+    color: gray;
     font-weight: bolder;
 }
+.linkshover{margin-left:20px}
+#linkshover1{margin-left: 245px;}
 
-.signin{
-background-color:black;
-border-radius: 3px;
-color: white;
-border-width: 0px;
-font-weight: bold;
+
+.f1tv{
+    margin-left: 30px;
+    padding: 6px 15px 6px 15px;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
 }
-.signin:hover{
-    background-color: rgb(155, 154, 154);
-    border-width: 0px;
-    font-weight: bold;
-}
-.subscribe{
+.subscribe{float: right;
+    margin: 5px 50px 0px 0px;
+    padding: 8px;
     background-color: red;
     color:white;
     border-top: 2px red solid;
@@ -44,6 +66,23 @@ font-weight: bold;
     border-radius: 3px;
     font-weight: bold;
     }
+.signin{  
+    margin-left: 37px;
+  background-color:black;
+border-radius: 3px;
+color: white;
+border-width: 0px;
+font-weight: bold;
+padding: 11px 10px 9px 10px;
+
+}
+.signin:hover{
+    background-color: rgb(155, 154, 154);
+    border-width: 0px;
+    font-weight: bold;
+    padding: 10px;
+}
+
 .subscribe:hover{color:rgb(52, 52, 52);
     background-color: white;
     border-top: 2px red solid;
@@ -51,6 +90,9 @@ font-weight: bold;
     border-left: 2px red solid;
     border-right: 2px red solid;
      font-weight: bold;
+     padding: 8px;
+     box-sizing: border-box;
+     transition: all 0.1s ease-in;
      }
 
 a{ color: black;
@@ -63,16 +105,61 @@ a{ color: black;
 
 .f2f3:hover{color:black;}
 
-#navfooter{margin-top:20px;
+#navfooter{
+    position: fixed;
+    margin-top:0px;
+    padding-top:10px ;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 50px;
-    background-color: #e10600;}
+    background-color: #e10600;
+    align-items: center;}
+
+
 
 #navfooter a{color: white;
+    
 }
-.kategorije{float: left;
-margin-left: 20px;
+.navfooter{
+    height: 60px;
+}
+.f1logo{
+    position: fixed;
+    margin-left: 20px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+.kategorije{
+    
+    display: inline-block;
+    position:relative;
+     left:0;
+margin-left: 10px;
+box-sizing: border-box;
+padding: 16px;
+
+}
+#prvi{margin-left:180px}
+.podkategorije{float: left;
+    position: absolute;
+    padding-top: 20px;
+    display:none;    ;
+    margin-top: 16px;
+background-color: black;
+width: 100%;}
+
+.kategorije:hover{background-color: black;
+transition: all 0.3s ease-in;}
+
+
+
+.kategorije:hover .podkategorije{
+    display: block;
+
+    left: 0;
+    padding-top: 20px;
+    margin-top: 16px;
+    width: 100%;
 }
 
-.kategorije:hover{background-color: black;}
+.vijesti{background-color: black;}
