@@ -192,7 +192,8 @@ padding-bottom: 5px;
 border-bottom-right-radius:10px ;
 transition: all 1s ease-in;}
 
-.vijesti{background-color: black;
+.vijesti{display: inline-block;
+    background-color: black;
 border-bottom: 1px solid gray;}
 div#gt{color: #e10600;
 position: relative;
