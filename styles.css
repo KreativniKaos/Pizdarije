@@ -145,7 +145,7 @@ a .f1logo{float: left;
    padding: 16px;}
 
 
-#prvi{float: left;
+.prvi{float: left;
     position: relative;
        margin-top: 0px;
   
@@ -160,6 +160,14 @@ a .f1logo{float: left;
         padding-top: 22px;
         }
 
+#prvi:hover #podkategorije{
+    position: fixed;
+    margin-top: 60px;
+    display: block;
+    background-color: black;
+    transition: all 1s ease-in;
+    
+}
 #podkategorije{font-weight: bolder;
     padding-left:20px;
     margin-left: 30;
@@ -174,19 +182,11 @@ a .f1logo{float: left;
 .kategorije:hover{background-color: black;
 transition: all 0.4s ease-in;}
 
-#prvi:hover #podkategorije{
-    position: fixed;
-    margin-top: 60px;
-    display: block;
-    background-color: black;
-    transition: all 1s ease-in;
-    
-}
 .latest{display: block;
     margin-left: 50px;
     border-bottom: 1px solid gray;
 border-right: 1px solid gray;
-padding-right: 1150px;
+padding-right: 1100px;
 max-width: fit-content;
 padding-bottom: 5px;
 border-bottom-right-radius:10px ;
@@ -195,11 +195,11 @@ transition: all 1s ease-in;}
 .vijesti{display: inline-block;
     background-color: black;
 border-bottom: 1px solid gray;}
-div#gt{color: #e10600;
+span#gt{color: #e10600;
 position: relative;
-padding-top: 25px;
+
 margin-left: 2px;
-display: inline-block;
+
 font-size: x-large;
 }
 .news{display: inline-block;
