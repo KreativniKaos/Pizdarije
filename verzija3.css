@@ -60,7 +60,7 @@ flex-direction: column;
 }
 
 #navheader{width: 100%;
-    height: 40px;
+    height: 50px;
     display: flex;
 justify-content: center;
 align-items: center;
@@ -76,7 +76,7 @@ font-size: 12px;}
 display: flex;
 justify-content: center;
 align-items: center;
-justify-content: space-around;}
+justify-content: space-evenly;}
 
 .header1{display:flex;
 align-items: center;
@@ -84,7 +84,7 @@ justify-content: space-between;
 width: 200px;}
 .header2{display: flex;
 align-items: center;
-justify-content: space-between;
+justify-content: space-around;
 width: 800px;
 }
 
@@ -104,7 +104,7 @@ img.fialogo{border-right: 1px solid gray;
     border-right: solid 1px gray;
 }
 .subscribe{
-    padding: 8px;
+    padding:12px 15px 12px 15px;
     background-color: red;
     color:white;
     border-top: 2px red solid;
@@ -114,21 +114,26 @@ img.fialogo{border-right: 1px solid gray;
     border-radius: 5px;
     font-weight: bold;
     transition: all 0.2s ease-out;
+    font-size: 12px;
+    box-sizing: border-box;
     }
 .signin{
     background-color:black;
 border-radius: 5px;
 color: white;
-border-width: 0px;
+border-width: 2px;
 font-weight: bold;
-padding: 10px 25px 10px 25px;
+padding:12px 35px 12px 35px;
+font-size: 12px;
+box-sizing: border-box;
+margin-right:-20px;
 
 }
 .signin:hover{
     background-color: rgb(155, 154, 154);
-    border-width: 0px;
+    border: 2px rgb(155, 154, 154) solid;
     font-weight: bold;
-    padding: 10px 25px 10px 25px;
+    padding:12px 35px 12px 35px;
     transition: all 0.2s ease-in;
 }
 
@@ -139,7 +144,7 @@ padding: 10px 25px 10px 25px;
     border-left: 2px #e10600 solid;
     border-right: 2px #e10600 solid;
      font-weight: bold;
-     padding: 8px;
+     padding:12px 15px 12px 15px;
      box-sizing: border-box;
      transition: all 0.1s ease-in;
      }
@@ -160,19 +165,33 @@ background-color: #e10600;}
     margin-left: 150px;
 }
 
-div.kategorije{width: 900px;
+div.kategorije{width: 1000px;
     display: flex;
 justify-content: flex-start;justify-content: space-between;
 align-items: center;
 color: white;}
 
-a.kategorije, a#prvi{color: white;
+a.kategorijelink, a#prvi{color: white;
 text-decoration: none;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size: 18px;
-font-weight: 400;}
+font-weight: 400;
+padding:21px 16px 21px 16px;}
 
-.podkategorije{display: none;}
+div.podkategorije{width: 100%;
+   margin-left: -225px;
+    margin-top: 682px;
+background-color: black;
+padding-top: 50px;
+display: none;
+position:absolute;}
+
+.latest{color:#e10600 ;
+font-size: 18px;
+display: flex;
+align-items: center;
+
+}
 
 
 main{margin-top:130px;
@@ -198,7 +217,8 @@ height: 1000px;
 box-sizing: border-box;
 display: flex;
 flex-direction: column;
-padding-top:10px;
+padding-top:20px;
+padding-right: 20px;
 }
 
 .subcontainer2{background-color:white;
@@ -215,5 +235,18 @@ padding-top:10px;
     margin-bottom: 20px;
 }
 
+.kategorijelink{color: white;text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding:21px 16px 21px 16px;
+display: flex;
+}
 
+.kategorijelink:hover, #prvi:hover{background-color: black;
+    transition: all 0.4s;
+padding:21px 16px 21px 16px;}
 
+a#prvi:hover div.podkategorije{
+display: block;
+}
