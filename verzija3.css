@@ -179,7 +179,8 @@ text-decoration: none;
 font-family: 'Titillium Web', sans-serif;
 font-size: 18px;
 font-weight: 400;
-padding:21px 16px 21px 16px;}
+padding:21px 16px 21px 16px;
+}
 
 a#prvi{padding:16px 16px 17px 16px;
     color: white;
@@ -251,7 +252,8 @@ padding-right: 20px;
 
 .kategorijelink:hover{background-color: black;
     transition: all 0.4s;font-family: 'Titillium Web', sans-serif;
-padding:21px 16px 21px 16px;}
+padding:21px 16px 21px 16px;
+box-sizing: border-box;}
 
 
 
@@ -269,7 +271,8 @@ padding-right: 200px;
 }
 
 .dropdown{padding:21px 0px;
-box-sizing: border-box;}
+box-sizing: border-box;
+color: white;}
 .dropdown:hover{background-color: black;
     transition: all 0.4s;
     padding:21px 0px;
@@ -507,4 +510,52 @@ background-position: center;
     font-weight: 700;
     letter-spacing: 0.4px;
     background-size: 105%;
+}
+
+.dropdown a.kategorijelink:hover{padding: 0px 16px;
+    background-color: black;
+    transition: all 0.4s;
+
+box-sizing: border-box;}
+
+.latest2{display: flex;
+    color:white;
+    display: inline-block;
+font-size: 18px;
+display: flex;
+align-items: center;
+box-sizing: border-box;
+letter-spacing: 0.4px;
+font-weight: 600;
+border-right: 1px solid gray;
+border-bottom: 1px solid gray;
+width: fit-content;
+padding-bottom: 15px;
+padding-right: 800px;
+border-bottom-right-radius:10px ;}
+
+.latest21{display: flex;
+    color:white;
+    display: inline-block;
+font-size: 18px;
+display: flex;
+align-items: center;
+box-sizing: border-box;
+letter-spacing: 0.4px;
+font-weight: 600;
+width: fit-content;
+padding-right: 15px;
+border-bottom-right-radius:10px ;}
+
+#podkategorije:nth-of-type(1){
+    position:absolute;   
+background-color: rgb(20, 19, 28);
+padding-top: 50px;
+margin-top: 21px;
+display:none;
+margin-left: -623px;
+width: 200%;
+padding-left: 500px;
+box-sizing: border-box;
+padding-right: 200px;
 }
