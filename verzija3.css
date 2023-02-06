@@ -187,7 +187,8 @@ a#prvi{padding:16px 16px 17px 16px;
     text-decoration: none;
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
-    font-weight: 400;}
+    font-weight: 400;
+}
 
 
 
@@ -313,7 +314,7 @@ box-sizing: border-box;
 
 .podkategorije2{margin-top:40px;
 display: flex;
-height: 500px;
+height: 450px;
 font-family:'Titillium Web', sans-serif;}
 
 .naslov{color:white;
@@ -531,7 +532,7 @@ border-right: 1px solid gray;
 border-bottom: 1px solid gray;
 width: fit-content;
 padding-bottom: 15px;
-padding-right: 800px;
+padding-right: 950px;
 border-bottom-right-radius:10px ;}
 
 .latest21{display: flex;
@@ -547,7 +548,10 @@ width: fit-content;
 padding-right: 15px;
 border-bottom-right-radius:10px ;}
 
-#podkategorije:nth-of-type(1){
+.latest21:hover{text-decoration: 3px underline #e10600;
+}
+
+#podkategorije2{
     position:absolute;   
 background-color: rgb(20, 19, 28);
 padding-top: 50px;
@@ -555,7 +559,132 @@ margin-top: 21px;
 display:none;
 margin-left: -623px;
 width: 200%;
-padding-left: 500px;
+padding-left: 332px;
 box-sizing: border-box;
 padding-right: 200px;
+height: 450px;
 }
+
+.dropdown:hover #podkategorije2{
+    display:block;
+    width: 200%;
+    }
+    
+.naslov211 {color:white;
+        font-size: 18px;
+        box-sizing: border-box;
+        letter-spacing: 0.4px;
+        font-weight: 600;
+        width: 300px;
+       height: 300PX;
+       margin-right: 20px;
+       
+    }
+    .naslov211 a{color:white;
+    text-decoration: none;}
+
+
+
+.kartica{height:250px;
+width: 240px;
+margin-left: 50px;
+border-top:10px solid rgba(196, 196, 196, 0.139);
+border-right:10px solid rgba(196, 196, 196, 0.139);
+position: absolute;
+border-top-right-radius: 30px;
+margin-top: -14px;
+}
+
+.imgtrke{background-image: url(https://www.formula1.com/content/dam/fom-website/races/2023/Bahrain_Grand_Prix.png);
+width: 270px;
+height:120px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+background-size: cover;
+background-position: center;
+margin-top: 15px;
+box-sizing: border-box;
+border: 0px;
+}
+
+.utrkekartice{display: flex;
+flex-direction: column;
+width: 270px;
+
+}
+
+.opis{margin-top: 10px;
+    display: flex;
+flex-direction: column;
+width:270px;
+height: 100px;
+justify-content: space-between;
+box-sizing: border-box;
+border-bottom:1px solid gray;
+border-right:1px solid gray;
+border-bottom-right-radius: 20px;}
+
+
+.opis span:nth-of-type(1){color: rgba(255, 255, 255, 0.344);}
+.utrkekartice:hover .opis span{color:white;}
+
+.utrkekartice:hover .opisborder{display: block;}
+.utrkekartice:hover .imgtrke{background-size: 105%;
+    transition: 0.5s ease-in;
+box-sizing: border-box;width: 270px;
+height:120px;}
+.utrkekartice:hover .opis{
+    border-bottom: 1px solid #e10600;
+    border-right: 1px solid #e10600;
+    border-bottom-right-radius: 20px;}
+
+    .imgtrke2{background-image: url(https://www.formula1.com/content/dam/fom-website/races/2023/Saudi_Arabian_Grand_Prix.png);
+        width: 270px;
+        height:120px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        background-size: cover;
+        background-position: center;
+        margin-top: 15px;
+        box-sizing: border-box;
+        border: 0px;
+        }
+        .utrkekartice:hover .imgtrke2{background-size: 105%;
+            transition: 0.5s ease-in;
+        box-sizing: border-box;width: 270px;
+        height:120px;}
+
+
+
+        .imgtrke3{background-image: url(https://www.formula1.com/content/dam/fom-website/races/2023/Australian_Grand_Prix.png);
+            width: 270px;
+            height:120px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            background-size: cover;
+            background-position: center;
+            margin-top: 15px;
+            box-sizing: border-box;
+            border: 0px;
+            }
+            .utrkekartice:hover .imgtrke3{background-size: 105%;
+                transition: 0.5s ease-in;
+            box-sizing: border-box;width: 270px;
+            height:120px;}
+
+
+            .imgtrke4{background-image: url(https://www.formula1.com/content/dam/fom-website/races/2023/Azerbaijan_Grand_Prix.png);
+                width: 270px;
+                height:120px;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+                background-size: cover;
+                background-position: center;
+                margin-top: 15px;
+                box-sizing: border-box;
+                border: 0px;
+                }
+                .utrkekartice:hover .imgtrke4{background-size: 105%;
+                    transition: 0.5s ease-in;
+                box-sizing: border-box;width: 270px;
+                height:120px;}
