@@ -123,18 +123,25 @@ border-radius: 5px;
 color: white;
 border-width: 2px;
 font-weight: bold;
-padding:12px 35px 12px 35px;
+padding:10px 15px 10px 15px;
 font-size: 12px;
 box-sizing: border-box;
 margin-right:-20px;
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
+
 .signin:hover{
     background-color: rgb(155, 154, 154);
     border: 2px rgb(155, 154, 154) solid;
     font-weight: bold;
-    padding:12px 35px 12px 35px;
+    padding:10px 15px 10px 15px;
     transition: all 0.2s ease-in;
+    display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .subscribe:hover{color:rgb(52, 52, 52);
